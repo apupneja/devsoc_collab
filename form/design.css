@@ -1,0 +1,120 @@
+html {
+  background: url(cool-background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* black header on the top */
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0;
+
+  background: #494949;
+  z-index: 1;
+}
+/* for signout button*/
+
+#signout{
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  right: 5%;
+  top: 12px;
+
+  background: rgb(250, 37, 37);
+  border-radius: 12px;
+}
+
+#back {
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  left: 5%;
+  top: 12px;
+  
+  background: rgb(250, 47, 47);
+  border-radius: 12px;
+}
+/* Form -meaning blue box on the right*/
+#form{
+    position: absolute;
+    width:50% ;
+    height: 80%;
+    left: 40%;
+    top: 15%;
+    background: #D5E8F3;
+    border-radius: 26px;
+}
+#submit{
+
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    left: 80%;
+    top: 90%;
+    outline: none;
+    background: rgb(250, 37, 37);
+    border-radius: 12px;
+
+}
+#clear{
+
+    position: absolute;
+    width: 90px;
+    height: 28px;
+    left: 60%;
+    top: 90%;
+    outline: none;
+    background: rgb(250, 37, 37);
+    border-radius: 12px;
+
+}
+/*for the blue box on the left*/
+#form_info{
+    text-align:center;
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 5%;
+    top: 15%;
+    background: #D5E8F3;
+    border-radius: 26px;
+
+}
+/*whenever text is enclosed within any blue box use this class with a div,text looks cleaner*/
+.container{
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    position: relative;
+}
+  /*below are css elements for stars, DO NOT CHANGE ANYTHING. Anirudh- We actually need to assign the intial value of 0 to the stars but idk how to do that*/
+  .rating-css input {
+    display: none;
+  }
+  .rating-css input + label {
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+    color: #EECC17;
+  }
+  .rating-css input:checked + label ~ label {
+    color: #838383;
+  }
+  .rating-css label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+  .comment{
+    width: 90%;
+    height: 60px;
+    left:45%;
+    top:85%;
+  }
+  
