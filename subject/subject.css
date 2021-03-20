@@ -96,21 +96,41 @@ li{
     left: 2%;
     height: 250px;
     display: inline-block;
-    background: #D5E8F3;
+    background: linear-gradient(
+        #D5E8F3,#D5E8F3 50%, #494949 50%, #494949
+    ) ;
+    background-size: 100% 200%;
     border-radius: 20px;
+    transition: all 0.2s ease;
     margin: 2%;
     overflow: hidden;
     text-align: center;
 }
 
+.subjectCard:hover {
+    background-position: 100% 100%;
+  }
+
+    
+.subjectCard:hover h2 {
+    color: white;
+  }
+
+.subjectCard:hover h4 {
+    color: white;
+  }
+
+
 /* The link to other page. Work need to be done to make all of this more dynamic */
 
-a:visited, a:link, a:hover, a:visited {
-    color: white;
-    text-decoration: none;
+.subjectCard .ranklist{
+    display: none;
     
 }
-.ranklist {
+
+.subjectCard:hover .ranklist{
+    display: block;
+    margin-left: 27%;
     padding: 5px;
     background: #0398d3;
     border-radius: 5px;
