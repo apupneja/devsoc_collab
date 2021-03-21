@@ -7,8 +7,8 @@
     </head>
     <body>
         <div class="nav">
-            <button id="signout" onclick="windows.location.href='#';">Sign Out</button>
-            <button id="backbutton" onclick="windows.location.href='#';">Back</button>
+            <button id="signout" onclick="window.location='../main/index.html';">Sign Out</button>
+            <button id="backbutton" onclick="window.location='../subject/subject.html';">Back</button>
         </div>
         <script>
             var stars1;
@@ -72,6 +72,28 @@
     
             };
             
+
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            function filterFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            div = document.getElementById("myDropdown");
+            a = div.getElementsByTagName("a");
+            for (i = 0; i < a.length; i++) {
+                txtValue = a[i].textContent || a[i].innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                a[i].style.display = "";
+                } else {
+                a[i].style.display = "none";
+                }
+            }
+            }
+
+            
         </script>
 
         <div id="form">
@@ -113,9 +135,24 @@
                     <br>
                     <hr>
                     
+                    
+                    <div class="dropdown">
+                        <span>Most popular Teacher</span>
+                        <button onclick="myFunction()" class="dropbtn">Click Here</button>
+                        <span id="myDropdown" class="dropdown-content">
+                          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                          <a href="#t1">Teacher 1</a>
+                          <a href="#t2">Teacher 2</a>
+                          
+                        </span>
+                    </div>
+                        
+                    
+                
                     <form action="" method="">
+                        <br><hr>
                         <textarea class="comment" placeholder="Any comments about the faculty/subject in general?"></textarea>
-                        <br>
+                        
                     </form> 
             
                 
@@ -123,8 +160,8 @@
             </div>
              
             
-            <button id="submit" onclick="windows.location.href='#';">Submit</button>
-            <button id="clear" onclick="windows.location.href='#';">Clear</button>
+            <button id="submit" onclick="window.location='#';">Submit</button>
+            <button id="clear" onclick="window.location.reload()">Clear</button>
         </div>
         <div id="form_info">
             <div class="container">

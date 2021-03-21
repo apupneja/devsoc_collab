@@ -103,4 +103,54 @@ html {
     left:45%;
     top:85%;
   }
+  .dropbtn {
+    background-color: lightblue;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
   
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #118fc0;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    padding: 14px 20px 12px 30px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 100px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
