@@ -1,0 +1,85 @@
+PHY F111
+
+This course covers Oscillation, waves and Newtonian mechanics. This is a core
+course to be taught to all Science and Engineering students. It is assumed that students are familiar
+with basic introduction to mechanics.
+
+BIO F111
+The course is aimed to provide a broad introduction to the major principles and topics in biology. The
+relationship of the living organism with its environment at the molecular level is highlighted, in line with
+modern research in biological sciences.The course offers an opportunity to the students in all disciplines to
+understand the beautiful working of Nature – undoubtedly the best architect till date – and to apply the
+knowledge gained to solve challenging problems in science and/or engineering.
+
+BITS F112
+The main objective of the course is to help the learners develop skills in writing technical reports.
+The students will learn about the various stages involved in formulating a problem, conducting a
+study and presenting their findings in the form of a Technical Report. 
+
+CHEM F111
+The course covers topics from physical chemistry such as basics of
+quantum theory, electronic structure of atoms and molecules, spectroscopy, thermodynamics, chemical
+equilibrium and chemical kinetics. Stereochemistry and reactivity of organic compounds are discussed as
+topics from organic chemistry along with reaction mechansims. A comprehensive survey of the concepts
+involved in the study of the transition metal coordination complexes, valence bond theory (VBT) and crystal
+field theory (CFT) for inorganic complexes are included as topics from inorganic chemistry.
+
+MATH F111
+The course is intended as a basic course in Calculus of Several Variables and Vector Analysis. It includes convergence 
+of sequences and series, polar coordinates, the study of functions of several variables, their partial derivatives, 
+integration of functions of several variables, and the theorems of Green, Gauss and Stokes.
+
+PHY F110
+Physics lab 1 experiments are designed to give students an experimental flavor of concepts related to
+mechanics, oscillations and waves. The course will help the students to validate and verify the
+theoretical concepts through experimentation and data analysis. Apart from developing their basic
+experimental skills, students will be taught to analyze and report the type of error propagating in their
+experiments due to unavoidable constraints.
+
+MATH F113
+Probability theorydeals with many real life problems, which either inherently involve the chance
+phenomena or describe the behavior of the system explicitly with statistical properties.
+Interpretation of the system behavior in many engineering aspects depends on concept of
+probability and statistics that familiarize with the computational aspects. This course
+explains the basic properties of random variables, probability distributions, statistical
+inferences, and other related concepts.
+
+MATH F112
+The course is meant as an introduction to Linear Algebra, and theory of Complex Variable functions. Study of
+linear algebra helps us in solving the system of linear equations and various properties of linear transformations.
+Systems of linear equations are needed to be solved in several branches of sciences and engineering. Complex
+analysis deals with the method of solving contour integrals, which cannot be evaluated through our conventional
+techniques.
+
+EEE F111
+This is an introductory course mandatory for all first year students admitted in any
+discipline. While the students of electrical and electronics engineering department and computer science and
+information systems department will take more advanced courses in electronics as a follow up, this course
+provides the basics of electronics to students of other disciplines to pursue their own discipline courses and also
+to venture into interdisciplinary electives.
+
+CS F111
+The primary goals of the course are to introduce basic representation of data and how to process data using the representation
+inside a computer, techniques for specifying data, operations on data, and problem solving using a programming
+language ,and systematic techniques and approaches for constructing programs.There is also a laboratory component that involves
+development and testing of iterative and procedural programs using bounded and unbounded iterations,
+function composition, random access lists, sequential access lists, dynamically allocated lists, and file
+access.
+
+CHEM F110
+To expose the students to experimental methods of chemistry and to integrate theoretical knowledge and
+concept to practical experience. Students will learn analytical methods, synthetic procedures, operation of
+scientific equipments for collecting data and the analysis of collected data for final interpretation.
+
+BITS F111
+Thermodynamics deals with energy, matter, and the laws governing their interactions. It is essential
+to learn its usefulness in the design of processes, devices, and systems involving effective utilization
+of energy and matter. The course emphasizes on the fundamentals and concepts of the laws of
+thermodynamics as applied to control mass and control volume systems. Irreversibility and
+availability are powerful tools in the design of thermodynamic systems.
+
+BITS F110
+Engineering Graphics is the primary medium for conceptualizing and communicating design
+concepts during development of engineering goods. The objective of the course is to train the
+students in this important skill needed for all engineering disciplines and familiarize them with
+established engineering drawing practice through video lecturing as well as hands on training.
