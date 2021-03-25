@@ -90,11 +90,11 @@ li{
 }
 
 .subjectCard{
-    top: 100px;
+    top: 70px;
     position: relative;
     width: 20%;
-    left: 2%;
-    height: 250px;
+    left: 1%;
+    height: 268px;
     display: inline-block;
     background: linear-gradient(
         #D5E8F3,#D5E8F3 50%, #494949 50%, #494949
@@ -107,6 +107,16 @@ li{
     text-align: center;
 }
 
+/* responsive */
+@media screen and (max-width: 450px) {
+  .subjectCard{
+    width: 45%;
+  }
+  .wrap{
+    left: 35%;
+    width: 60%;
+  }
+}
 .subjectCard:hover {
     background-position: 100% 100%;
   }
