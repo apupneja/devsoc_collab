@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
         <link rel="stylesheet"  type="text/css" href="design.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <title>Form</title>
@@ -96,7 +100,18 @@
             
         </script>
 
-        <div id="form">
+
+        <div class="form_info">
+            <div class="container">
+            <h1>Guidelines</h1>
+            <p>In the form, fill out the ratings for the profs you have been taught by in lecture, tutorials or lab sections. </p>
+            <p>A text box has been to put up to enter any advice you might have for the course.</p>
+            <br><br>
+            </div>
+        </div>
+
+        <div class="form_info1">
+            <br><br>
             <div class="container"><!-- container is to be used to enclose text, text looks cleaner when it is enclosed inside this element-->
                 
                     <div><!-- If u want to add new teachers then just copy paste this whole div tag along with the br,hr tags-->
@@ -159,17 +174,10 @@
                     
             </div>
              
-            
+            <br><br><br><br>
             <button id="submit" onclick="window.location='#';">Submit</button>
             <button id="clear" onclick="window.location.reload()">Clear</button>
         </div>
-        <div id="form_info">
-            <div class="container">
-               <h1>Guidelines</h1>
-               <p>In the form, fill out the ratings for the profs you have been taught by in lecture, tutorials or lab sections. </p>
-               <p>A text box has been to put up to enter any advice you might have for the course.</p>
-            </div>
-           </div>
         
     </body>
 </html>
