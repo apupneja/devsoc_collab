@@ -29,7 +29,8 @@ html {
   right: 5%;
   top: 12px;
   outline: none;
-  background: rgb(250, 37, 37);
+  background: #ff0038;
+  color: white;
   border-radius: 12px;
 }
 
@@ -40,7 +41,8 @@ html {
   left: 5%;
   top: 12px;
   outline: none;
-  background: rgb(250, 47, 47);
+  background: #ff0038;
+  color: white;
   border-radius: 12px;
 }
 /* Form -meaning blue box on the right*/
@@ -61,7 +63,8 @@ html {
     left: 80%;
     top: 90%;
     outline: none;
-    background: rgb(250, 37, 37);
+    background: #ff0038;
+    color: white;
     border-radius: 12px;
 
 }
@@ -73,7 +76,8 @@ html {
     left: 60%;
     top: 90%;
     outline: none;
-    background: rgb(250, 37, 37);
+    background: #ff0038;
+    color: white;
     border-radius: 12px;
 
 }

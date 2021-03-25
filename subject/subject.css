@@ -80,8 +80,9 @@ body {
     right: 5%;
     top: 12px;
 
-    background: rgb(250, 37, 37);
+    background: #ff0038;
     border-radius: 12px;
+    color: white;
 }
 
 li{

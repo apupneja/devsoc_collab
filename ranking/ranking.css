@@ -69,7 +69,8 @@ body {
     right: 5%;
     top: 12px;
 
-    background: rgb(250, 37, 37);
+    background: #ff0038;
+    color: white;
     border-radius: 12px;
 }
 
@@ -80,7 +81,8 @@ body {
     left: 5%;
     top: 12px;
     
-    background: rgb(250, 47, 47);
+    background: #ff0038;
+    color: white;
     border-radius: 12px;
 }
 
@@ -88,7 +90,8 @@ body {
 
 .form{
     position: absolute;
-    background: rgb(250, 47, 47);
+    background: #ff0038;
+    color: white;
     border-radius: 12px;
     right: 5%;
     bottom: 5%;
