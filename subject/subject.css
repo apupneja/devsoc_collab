@@ -110,7 +110,8 @@ li{
 /* responsive */
 @media screen and (max-width: 450px) {
   .subjectCard{
-    width: 45%;
+    width: 93%;
+    height: 345px;
   }
   .wrap{
     left: 35%;
