@@ -17,12 +17,20 @@ and makes the preferences of seniors clear.
 After signing in through Bits mail on the homepage. The user can choose the required subject card on the next page. Followed by this, the user will be able to see the preferences 
 given by seniors along with the rating of each professor. Also, students will be able to see tips and tricks for the particular course. The users won't able to see the option for filling the form unless he is a senior. 
 
+## Future Implementations
+
+In the future we plan to:
+* Add more subjects
+* Add more faculty
+* Better UI/UX
+* Update to a better server like PostgreSQL
+
 ## Team members
 ### Frontend team
-   * [Anirudh Pupneja](-github.com/apupneja/)
+* [Anirudh Pupneja](-github.com/apupneja/)
    
-   * [Omkar Kulkarni](-github.com/oak2905/)
+* [Omkar Kulkarni](-github.com/oak2905/)
 ### Backend team
-   * [Ananth Raghav](-github.com/ananth243/)
+* [Ananth Raghav](-github.com/ananth243/)
 
-   * [Mohit Sharma](-github.com/Mohit-6515/)
+* [Mohit Sharma](-github.com/Mohit-6515/)
