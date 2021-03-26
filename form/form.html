@@ -11,8 +11,12 @@
     </head>
     <body>
         <div class="nav">
-            <button id="signout" onclick="window.location='../main/index.html';">Sign Out</button>
-            <button id="backbutton" onclick="window.location='../subject/subject.html';">Back</button>
+            <a href ="#" class="back">
+                back
+            </a>
+             <a href="#" class="signout">
+                sign out
+             </a>
         </div>
         <script>
             var stars1;
@@ -173,11 +177,30 @@
                 
                     
             </div>
-             
-            <br><br><br><br>
-            <button id="submit" onclick="window.location='#';">Submit</button>
-            <button id="clear" onclick="window.location.reload()">Clear</button>
+            
+            <a href="#" class="form">
+                submit
+            </a>
+            
         </div>
-        
+
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('a');
+            buttons.forEach(btn=>{
+                btn.addEventListener('click',function(e){
+                    let x = e.clientX - e.target.offsetLeft;
+                    let y = e.clientY - e.target.offsetTop;
+    
+                    let ripples = document.createElement('span');
+                    ripples.style.left = x + 'px';
+                    ripples.style.top = y + 'px';
+                    this.appendChild(ripples);
+    
+                    setTimeout(()=>{
+                        ripples.remove()
+                    },1000);
+                })
+            })
+        </script>
     </body>
 </html>
