@@ -19,99 +19,42 @@
               </button>
             </div>
          </div>
-         <button class="signout">
-            sign out
-         </button>
+         <a href ="#" class="signout">
+            signout
+        </a>
     </div>
     <!-- The cards -->
 <ul id="card">  
     <li><div class="subjectCard">  
         <h2>EEEF111</h2>
         <h4>Electrical Science</h4> 
-        <button class="ranklist">
+        <a class="ranklist">
             <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
+            Rank List
+        </a>
         </div>
     </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>MATHS111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    <li><div class="subjectCard">  
-        <h2>PHYF111</h2>
-        <h4>Electrical Science</h4> 
-        <button class="ranklist">
-            <!--If you wanna add more features please remember there are anchor tags here-->
-            <a style="text-decoration: none;">Rank List</a>
-        </button>
-        </div>
-    </li>
-    
-    
-
 </ul>
 
     <script src='subject.js'></script>
+    <script type="text/javascript">
+        const buttons = document.querySelectorAll('a');
+        buttons.forEach(btn=>{
+            btn.addEventListener('click',function(e){
+                let x = e.clientX - e.target.offsetLeft;
+                let y = e.clientY - e.target.offsetTop;
+
+                let ripples = document.createElement('span');
+                ripples.style.left = x + 'px';
+                ripples.style.top = y + 'px';
+                this.appendChild(ripples);
+
+                setTimeout(()=>{
+                    ripples.remove()
+                },1000);
+            })
+        })
+    </script>
 
 
 </body>

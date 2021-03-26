@@ -22,7 +22,7 @@ body {
     left: 0px;
     top: 0;
 
-    background: #494949;
+    background: #070707;
     z-index: 1;
 }
 /* 24-70- evething related to search bar */
@@ -75,14 +75,38 @@ body {
 
 .signout{
     position: absolute;
+    padding-top: 5px;
+    color: #fff;
+    text-decoration: none;
     width: 80px;
     height: 26px;
     right: 5%;
-    top: 12px;
-
-    background: #ff0038;
+    top: 8px;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
     border-radius: 12px;
-    color: white;
+}
+
+span{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        height: 500px;
+        width: 500px;
+        opacity: 0;
+    }
 }
 
 li{
@@ -154,5 +178,7 @@ li{
     position: relative;
     bottom: -30%;
     margin: 0 auto;
+    overflow: hidden;
+    width: 50%;
 
 }
