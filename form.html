@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet"  type="text/css" href="design.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="nav">
+            <a href ="#" class="back">
+                back
+            </a>
+             <a href="#" class="signout">
+                sign out
+             </a>
+        </div>
+
+
+        <div class="form_info">
+            <div class="container">
+            <h1>Guidelines</h1>
+            <p>In the form, fill out the ratings for the profs you have been taught by in lecture, tutorials or lab sections. </p>
+            <p>A text box has been to put up to enter any advice you might have for the course.</p>
+            <br><br>
+            </div>
+        </div>
+
+        <div class="form_info1">
+            <br><br>
+            <div class="container"><!-- container is to be used to enclose text, text looks cleaner when it is enclosed inside this element-->
+                    
+                <form>
+                
+                        <div>
+
+                            <span>Teacher 1  &emsp;  &emsp;</span>
+                            <span class="dropdown">
+                                <button class="dropbtn">Rate</button>
+                                <div class="dropdown-content">
+                                  <i>1</i>
+                                  <i>2</i>
+                                  <i>3</i>
+                                  <i>4</i>
+                                  <i>5</i>
+                                </div>
+                            
+                        </div>
+                     
+                        <br>
+                        <hr>
+                        
+                    <br>
+                </form>
+                    
+                
+                    
+                    <label for="comments">Suggestions or Tips for the students</label>
+                            <textarea name="comments" class="comment"></textarea>
+                            <br>
+            
+                
+                    
+            </div>
+            <br><br><br>
+            <a href="#" class="form">
+                submit
+            </a>
+            
+        </div>
+
+        <script type="text/javascript">
+            const buttons = document.querySelectorAll('a');
+            buttons.forEach(btn=>{
+                btn.addEventListener('click',function(e){
+                    let x = e.clientX - e.target.offsetLeft;
+                    let y = e.clientY - e.target.offsetTop;
+    
+                    let ripples = document.createElement('span');
+                    ripples.style.left = x + 'px';
+                    ripples.style.top = y + 'px';
+                    this.appendChild(ripples);
+    
+                    setTimeout(()=>{
+                        ripples.remove()
+                    },1000);
+                })
+            })
+        </script>
+    </body>
+</html>
