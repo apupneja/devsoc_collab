@@ -13,12 +13,12 @@
 <body>
     <!-- the same nav bar -->
     <div class='navbar'>
-        <button class="back">
+        <a href ="#" class="back">
             back
-         </button>
-         <button class="signout">
+        </a>
+         <a href="#" class="signout">
             sign out
-         </button>
+         </a>
     </div>
 
     <!-- making the two box -->
@@ -41,6 +41,9 @@
                     <td>Grade2</td>
                 </tr>
             </table>
+            <a href="#" class="form">
+                form
+            </a>
         </div>
         
 
@@ -65,7 +68,7 @@
                                   <div class="imgBx">
                                       <img src="logo.png" class="src">
                                   </div>
-                                  <h3>Someone Famous<br><span>Creative Designer</span></span></h3>
+                                  <h3>Someone Famous<br>Title</h3>
                               </div>
                           </div>
                       </div>
@@ -83,7 +86,7 @@
                                 <div class="imgBx">
                                     <img src="logo.png" class="src">
                                 </div>
-                                <h3>Someone Famous<br><span>Creative Designer</span></span></h3>
+                                <h3>Someone Famous<br>Creative</h3>
                             </div>
                         </div>
                     </div>
@@ -101,7 +104,7 @@
                                 <div class="imgBx">
                                     <img src="logo.png" class="src">
                                 </div>
-                                <h3>Someone Famous<br><span>Creative Designer</span></span></h3>
+                                <h3>Someone Famous<br>Creative Designer</h3>
                             </div>
                         </div>
                     </div>     
@@ -115,6 +118,24 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="ranking.js"></script>
+    <script type="text/javascript">
+        const buttons = document.querySelectorAll('a');
+        buttons.forEach(btn=>{
+            btn.addEventListener('click',function(e){
+                let x = e.clientX - e.target.offsetLeft;
+                let y = e.clientY - e.target.offsetTop;
+
+                let ripples = document.createElement('span');
+                ripples.style.left = x + 'px';
+                ripples.style.top = y + 'px';
+                this.appendChild(ripples);
+
+                setTimeout(()=>{
+                    ripples.remove()
+                },1000);
+            })
+        })
+    </script>
         
     </script>
     
