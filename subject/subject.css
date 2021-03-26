@@ -1,9 +1,5 @@
 /* Adds the background */
 
-* {
-  font-family: sans-serif;
-}
-
 html {
     background: url(cool-background.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
