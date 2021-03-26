@@ -2,10 +2,10 @@
 
 This is the repository of the ProfStats, a tool created as a part of a hackathon organised by DevSoc of BITS Pilani Goa Campus.
 
-## The problem
+## The Problem
 
 The students at BITS Pilani have the freedom to choose their own professors at the start of every semester. In order to choose the best professors for their courses 
-in their semester, juniors take feedback from the seniors. But every senior has his/her own opinion which leads to a lot of confusion for the juniors. 
+in their semester, juniors take feedback from the seniors. But every senior has his/her own opinion which leads to a lot of confusion for the juniors. Especially now, when the university is running in online mode, the reachability of senior reduces exponentially.
 
 ## How ProfStats helps
 
@@ -14,8 +14,8 @@ and makes the preferences of seniors clear.
 
 ## How to use
 
-After signing in through Bitsmail on the homepage. The user can choose the required subject card on the next page. followed by that the user will be able to see the preferences 
-given by seniors along with the rating of each professor.
+After signing in through Bits mail on the homepage. The user can choose the required subject card on the next page. Followed by this, the user will be able to see the preferences 
+given by seniors along with the rating of each professor. Also, students will be able to see tips and tricks for the particular course. The users won't able to see the option for filling the form unless he is a senior. 
 
 ## Team members
 ### Frontend team
