@@ -1,6 +1,6 @@
 # ProfStats Tool
 
-This is the repository of the ProfStats tool created as a part of a hackathon organised by DevSoc of BITS Pilani Goa Campus.
+This is the repository of the ProfStats, a tool created as a part of a hackathon organised by DevSoc of BITS Pilani Goa Campus.
 
 ## The problem
 
